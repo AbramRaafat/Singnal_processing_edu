@@ -1,35 +1,35 @@
 # Signal Processing for Machine Learning
 
-This repo aims to help people with intrest about ML/DL but lack the foundation in signal processing, a topic that is essential for ML and DL applications such as NLP 
+This repository is designed for learners interested in Machine Learning and Deep Learning who want to build a strong foundation in Signal Processing. Understanding signal theory is essential for advanced applications such as Natural Language Processing (NLP), speech recognition, and time-series analysis. This hub bridges the gap between raw signal manipulation and modern learning algorithms.
 
 ## Core Educational Modules
 
 ### 1. Optimal Estimation and Adaptive Filtering
-Fundamentals of estimating signals and adapting system parameters in real-time, which are essential for ML model optimization:
-* **Wiener Filtering**: Implementation of the Wiener-Hopf equations for optimal linear estimation.
-* **Least Mean Squares (LMS) & NLMS**: Stochastic gradient descent applications in adaptive signal processing.
-* **Recursive Least Squares (RLS)**: High-performance adaptive filtering for rapid convergence in stationary environments.
-* **Steepest Descent Optimization**: Iterative optimization techniques and convergence analysis using eigenvalue decomposition.
-* **Kalman Filtering**: State-space estimation and recursive Bayesian tracking for dynamic signals.
+Explores how systems estimate underlying signals and adapt parameters in real-time, serving as a direct precursor to ML model optimization and gradient-based learning:
+* **Wiener Filtering**: Solving the Wiener-Hopf equations for optimal linear estimation.
+* **Least Mean Squares (LMS) & NLMS**: Practical applications of stochastic gradient descent in signal adaptation.
+* **Recursive Least Squares (RLS)**: High-performance adaptive filtering for rapid convergence.
+* **Steepest Descent Optimization**: Iterative optimization techniques including convergence analysis using eigenvalue decomposition.
+* **Kalman Filtering**: Recursive state-space estimation and Bayesian tracking for dynamic data.
 
 ### 2. Feature Extraction and Representation
-Techniques for transforming raw data into meaningful representations for downstream learning:
-* **Linear Predictive Coding (LPC)**: Modeling signals as linear combinations of past samples, a precursor to many autoregressive ML models.
-* **Vector and Scalar Quantization**: Data compression and codebook design using the LBG algorithm and various probability distributions (Gaussian, Laplacian).
-* **Correlation Analysis**: Computing auto-correlation and cross-correlation matrices as features for statistical learning.
+Focuses on transforming raw, unstructured data into meaningful representations suitable for downstream learning models:
+* **Linear Predictive Coding (LPC)**: Representing signals through past samples, providing a foundation for autoregressive models used in NLP and speech.
+* **Vector and Scalar Quantization**: Techniques for data compression and codebook design using the LBG algorithm and various probability distributions like Gaussian and Laplacian.
+* **Correlation Analysis**: Computing autocorrelation and cross-correlation matrices to identify statistical patterns within data.
 
-### 3. Signal Enhancement and Channel Modeling
-Processing signals to improve quality and modeling the environments through which they travel:
-* **Channel Estimation**: Using adaptive filters to identify unknown system impulses.
-* **Adaptive Equalization**: Compacting channel distortion in communication signals using iterative algorithms.
-* **Noise Characterization**: Methods for adding and scaling Gaussian noise based on specific SNR requirements.
+### 3. Signal Enhancement and System Modeling
+Methods for improving signal quality and identifying the characteristics of the systems through which data travels:
+* **System Identification**: Using adaptive filters to identify and model unknown system impulses.
+* **Adaptive Equalization**: Techniques for compensating for distortion and recovering signal integrity.
+* **Noise Characterization**: Algorithms for generating and scaling Gaussian noise based on specific Signal-to-Noise Ratio (SNR) requirements.
 
 ## Repository Organization
-* **/DSP_labs/src**: Core MATLAB/Source functions and algorithm implementations.
+* **/DSP_labs/src**: Core source functions and algorithm implementations.
 * **/Notebooks**: Links to Kaggle notebooks containing interactive visualizations, mathematical derivations, and performance analysis.
 
 ## Usage
-The scripts in `/src` are designed for educational exploration. Start with the main simulation files (e.g., `wiener_filter_main.m` or `channel_Equalizer.m`) to observe how signal processing parameters impact algorithm performance.
+The implementations in `/src` are designed for educational exploration. Start with the main simulation files (such as `wiener_filter_main.m` or `Steepest_Descent_main.m`) to observe how signal processing parameters impact algorithm performance.
 
 ## License
 This project is licensed under the MIT License.
