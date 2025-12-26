@@ -40,11 +40,14 @@ Methods for improving signal quality and identifying the characteristics of the 
 * **Noise Characterization**: Algorithms for generating and scaling Gaussian noise based on specific Signal-to-Noise Ratio (SNR) requirements.
 
 ## Repository Organization
-* **/DSP_labs/src**: Core source functions and algorithm implementations.
-* **signal_processing_for_ML.ipynb**: The central interactive notebook for sessions and self-paced learning.
+* **/DSP_labs/src**: Core source functions and algorithm implementations in MATLAB for advanced DSP course.
+* **signal_processing_for_ML.ipynb**: The central interactive notebook for self-paced learning.
 
 ## Usage
 The implementations in `/src` are designed for educational exploration. Start with the **signal_processing_for_ML.ipynb** notebook for a guided experience, or refer to main simulation files (such as `wiener_filter_main.m` or `Steepest_Descent_main.m`) to observe how signal processing parameters impact algorithm performance.
+
+## Future Notes 
+This repo is still a work in progress
 
 ## License
 This project is licensed under the MIT License.
