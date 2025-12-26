@@ -8,8 +8,7 @@
 This repo is designed for learners interested in Machine Learning and Deep Learning who lack the foundation in Signal Processing. Understanding signal theory is essential for advanced applications such as Natural Language Processing (NLP), speech recognition, time-series analysis, and dimensionality reduction techniques
 ## Featured Learning Resource
 
-The following interactive notebook is the primary starting point for this hub. It has been refined through live educational sessions to provide a clear, visual, and hands-on introduction to these concepts.
-
+The following interactive notebook is the primary starting point for this hub
 * **[Interactive Kaggle Notebook: Signal Processing for ML](https://www.kaggle.com/code/abraamraafat/signal-prep-session)**
 * **Local Jupyter Version**: `signal_processing_for_ML.ipynb`
 
