@@ -1,7 +1,6 @@
 # Signal Processing for Machine Learning
 
-This repository is designed for learners interested in Machine Learning and Deep Learning who want to build a strong foundation in Signal Processing. Understanding signal theory is essential for advanced applications such as Natural Language Processing (NLP), speech recognition, and time-series analysis. This hub bridges the gap between raw signal manipulation and modern learning algorithms.
-
+This repository is designed for learners interested in Machine Learning and Deep Learning who want to build a strong foundation in Signal Processing. Understanding signal theory is essential for advanced applications such as Natural Language Processing (NLP), speech recognition, and time-series analysis
 ## Core Educational Modules
 
 ### 1. Optimal Estimation and Adaptive Filtering
